@@ -76,14 +76,3 @@ Our Discord support channel is designed to provide real-time assistance to users
 
 3. **Engage with the Community**: Feel free to interact with other users who might have similar questions or experiences. Our community is here to help each other out!
 
----
-## Email Support (For Legacy ForePaaS Platform)
-
-For our legacy clients, we offer traditional email support. If you prefer a more formal or asynchronous mode of communication, email support is the perfect option for you. Our support team diligently monitors incoming emails and strives to provide prompt and comprehensive responses to all queries.
-
-### Legacy ForePaaS Users:
-
-If you are a legacy ForePaaS user, reach out to your organisation admins on how you can reach out to the support. You can always find the admin amongst the members list in your organisation.
-Please allow up to 24-48 hours for a response, although we strive to respond much sooner.
-
-If you have any suggestions, feedback, or concerns regarding our support services, please don't hesitate to let us know. We are committed to continuously improving our support infrastructure to better serve you.

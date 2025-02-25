@@ -1,6 +1,6 @@
 # Update Metadata Action
 
-The Update Metadata action is used to **update the metadata of the data model** stored either in the data warehouse or the datastore. It is strongly advised to run it at the end of the execution of a workflow which usually affects the data model. The metadata of the data model is used by other components to navigate the data model such as the [Analytics Manager](/en/product/am/index), the [APIs](/en/product/api-manager/index) or the [Machine Learning Manager](/en/product/ml/index).
+The Update Metadata action is used to **update the metadata of the data model** stored either in the data warehouse or the datastore. It is strongly advised to run it at the end of the execution of a workflow which usually affects the data model. The metadata of the data model is used by other components to navigate the data model such as the [Analytics Manager](/en/product/am/index), or the [APIs](/en/product/api-manager/index).
 
 When creating a new Update Metadata action, no configuration is required.
 

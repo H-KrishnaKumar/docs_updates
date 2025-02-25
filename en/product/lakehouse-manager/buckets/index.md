@@ -1,6 +1,6 @@
 # Buckets
 
-the platform Buckets are **S3 compatible object stores** which allow you to store any unstructured data. Think of buckets as different workspaces, for instance, a specific machine learning Project or a repository of photos or videos.
+the platform Buckets are **S3 compatible object stores** which allow you to store any unstructured data. Think of buckets as different workspaces, for instance, a repository of photos or videos.
 
 ![buckets](picts/buckets-1.png)
 

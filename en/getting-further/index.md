@@ -1,7 +1,5 @@
 # Getting further: tutorials and how tos
 
->**Please note:** Some of the advanced tutorials are using the [Machine Learning Manager](en/product/ml/index.md) service that is only available on the *Legacy ForePaaS Platform*. This service is not available on OVHcloud Data Platform.
-
 Hello again! 👋 We are so excited to see you want to step up your Project development.  
 
 The **Getting Further** guide series will enable you to discover the most advanced features and harness the full potential of the Platform. 

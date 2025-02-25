@@ -302,7 +302,7 @@ Here are some scenarios where custom API is needed.
 ## Project Backup
 
 ### Project Configuration
-Learn more about how to [backup and restore your Project configuration](/en/product/dataplant/config).
+Learn more about how to [backup and restore your Project configuration](/en/getting-further/export-import-project-config/index.md).
 
 ### Exporting data
 

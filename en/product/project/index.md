@@ -31,8 +31,6 @@ A Project is a flexble environment composed of multiple services, meaning you ca
   * The [Lakehouse Manager](/en/product/lakehouse-manager/index)
   * The [Data Processing Engine](/en/product/dpe/index)
   * The [Analytics Manager](/en/product/am/index)
-* **Artificial Intelligence**: notebook exploration and machine learning.
-  * The [Machine Learning Manager](/en/product/ml/index) - *Only available on Legacy ForePaaS*
 * **Application Services** : API gateways and data visualization.
   * The [APIs](/en/product/api-manager/index)
   * The [APPs](/en/product/app-manager/index)
@@ -45,7 +43,7 @@ A Project is a flexble environment composed of multiple services, meaning you ca
 ---
 ## How to allocate resources in a Project? 
 
-Projects were designed from scratch to scale easily as the requirements of your data Project evolve. You can independently **scale horizontally and vertically** in any component of your choice in just a few clicks, for example in the [preferences](/en/product/dpe/jobs/resources) of a [Data Processing Engine workflow](/en/product/dpe/workflows/index.md), or in the [preferences](/en/product/ml/pipelines/execute/preferences) of a [Machine Learning Manager pipeline](/en/product/ml/pipelines/index.md). Deployed instances, such as [APIs](en/product/api-manager/index), [applications](/en/product/app-manager/index) or [database engines](/en/product/project/storage-engine/index), can also be scaled independently.
+Projects were designed from scratch to scale easily as the requirements of your data Project evolve. You can independently **scale horizontally and vertically** in any component of your choice in just a few clicks, for example in the [preferences](/en/product/dpe/jobs/resources) of a [Data Processing Engine workflow](/en/product/dpe/workflows/index.md). Deployed instances, such as [APIs](en/product/api-manager/index), [applications](/en/product/app-manager/index) or [database engines](/en/product/project/storage-engine/index), can also be scaled independently.
 
 Each component in your Project will consume [resources](/en/product/billing/resources/index) when it is actively running (either through a job or a deployment).
 
