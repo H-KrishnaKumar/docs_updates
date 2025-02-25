@@ -1,0 +1,356 @@
+footer {
+  background-color: #212a37;
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  background-size: auto 300px;
+  background-image: url(https://d3ixsu8qqjhqap.cloudfront.net/wp-content/uploads/2018/12/illus_footer.svg);
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 40px 0 300px 0;
+  position: relative;
+  width: 100%;
+  z-index: 9;
+}
+
+footer .inner-container {
+  max-width: 1000px;
+  width: 95%;
+  margin: auto;
+  position: relative;
+  height: 100%;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer.site-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer.site-footer ul.inner-container {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+footer.site-footer ul.inner-container > li span {
+  color: #989FA9;
+  display: block;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+footer.site-footer ul .logo-box .footer-logo img {
+  max-width: 130px;
+  width: 100%;
+}
+footer.site-footer ul .logo-box small {
+  color: #989FA9;
+  display: block;
+  font-size: 12px;
+  height: 25px;
+  line-height: 25px;
+  margin: 5px 0;
+}
+footer.site-footer ul .logo-box ul li {
+  display: inline-block;
+  color: #989FA9;
+  font-size: 12px;
+  margin-right: 5px;
+  padding-right: 5px;
+  position: relative;
+}
+footer.site-footer ul .logo-box ul li:after {
+  content: "";
+  border-right: 1px solid #989FA9;
+  position: absolute;
+  right: -2px;
+  top: 3px;
+  bottom: 3px;
+}
+footer.site-footer ul .logo-box ul li + li {
+  padding-right: 0;
+  margin-right: 0;
+}
+footer.site-footer ul .logo-box ul li + li:after {
+  content: none;
+}
+footer.site-footer ul .logo-box ul li a {
+  color: #989FA9;
+  text-decoration: none;
+}
+footer.site-footer ul .logo-box ul li abbr {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+footer.site-footer ul .logo-box ul li > abbr {
+  color: #34cbf9;
+}
+footer.site-footer ul .menu-box a {
+  color: #FFF;
+  line-height: 25px;
+  text-decoration: none;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+footer.site-footer ul .menu-box span {
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+footer.site-footer ul .menu-box ul li a {
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+footer.site-footer ul .social-box form.hs-form {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+footer.site-footer ul .social-box form.hs-form .hs-form-required {
+  display: none;
+}
+footer.site-footer ul .social-box form.hs-form .hs-richtext {
+  display: none;
+}
+footer.site-footer ul .social-box form.hs-form .hs_email {
+  width: 100%;
+}
+footer.site-footer ul .social-box form.hs-form .hs_email .input {
+  margin-bottom: 0;
+}
+footer.site-footer ul .social-box form.hs-form .hs_email .input input {
+  border: none;
+  border-radius: 7px;
+  background: #fff;
+  line-height: 44px;
+  padding: 0 14px;
+  font-weight: 300;
+}
+footer.site-footer ul .social-box form.hs-form .hs_email span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 10px;
+  width: calc(100% + 90px);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+footer.site-footer ul .social-box form.hs-form .hs_submit {
+  margin-left: 10px;
+}
+footer.site-footer ul .social-box form.hs-form .hs_submit .hs-button {
+  padding: 9px 22px 14px 22px;
+  box-shadow: none;
+  border: none;
+}
+footer.site-footer ul .social-box form.hs-form .hs-error-msgs {
+  font-size: 12px;
+  margin-top: 0;
+}
+footer.site-footer ul .social-box form.hs-form .hs-error-msgs label {
+  text-transform: none;
+}
+footer.site-footer ul .social-box .social-link li {
+  display: inline-block;
+  font-size: 25px;
+  height: 40px;
+  line-height: 45px;
+  margin-right: 10px;
+  width: 40px;
+}
+footer.site-footer ul .social-box .social-link li:last-child {
+  margin-right: 0;
+}
+footer.site-footer ul .social-box .social-link li a {
+  background-color: #98A7B6;
+  border-radius: 30px;
+  display: block;
+  height: 100%;
+  text-align: center;
+  transition: 200ms all ease-in-out;
+}
+footer.site-footer ul .social-box .social-link li a:hover {
+  background-color: #FFF;
+}
+footer.site-footer ul .social-box .social-link li a img {
+  width: 50%;
+}
+footer form.hs-form .hs-button {
+  display: inline-block;
+  text-decoration: none;
+  user-select: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #00ccf9;
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, .07), 0 5px 8px 0 rgba(0, 0, 0, .14);
+  padding: 9px 42px 14px 42px;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 19px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  transition: all .15s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+footer form.hs-form .hs_email .input input {
+  border: none;
+  background: #fff;
+  border-radius: 7px;
+  line-height: 44px;
+  padding: 0 14px;
+  font-weight: 300;
+  font-size: 15px;
+  outline: none;
+}
+footer form.hs-form input.hs-input {
+  width: 100%;
+}
+footer form.hs-form input::placeholder{
+  color:rgba(151, 167, 183, .5);
+  font-size: 16px
+}
+footer form.hs-form .hs-error-msgs {
+  position: absolute;
+  margin: 0;
+}
+footer form.hs-form .hs-error-msgs label {
+  color: #e4003d;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+#hubspot-footer-form>form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: flex-start;
+  align-items: flex-end;
+  width: 350px;
+}
+
+#hubspot-footer-form > form > .hs_email {
+  width: 220px!important;
+  order: 0;
+}
+
+#hubspot-footer-form>form>.legal-consent-container {
+  width: 325px;
+  order: 3;
+  margin-top: 15px;
+}
+
+#hubspot-footer-form > form > .legal-consent-container .hs-richtext {
+  display: none;
+}
+
+#hubspot-footer-form > form > .legal-consent-container .hs-form-field {
+  margin-bottom: 0;
+}
+
+#hubspot-footer-form > form > .legal-consent-container .hs-form-booleancheckbox-display {
+  display: flex;
+  justify-content: left;
+  align-content: stretch;
+  align-items: flex-end;
+}
+
+#hubspot-footer-form > form > .legal-consent-container .hs-form-field input {
+  margin-bottom: 0;
+}
+
+#hubspot-footer-form > form > .legal-consent-container span {
+  font-size: 14px;
+  margin: 0;
+  text-transform: initial;
+}
+
+footer form.hs-form input.hs-input {
+width: auto;
+}
+
+#hubspot-footer-form > form li input[type="checkbox"]{
+margin: 0 10px 0 0;
+align-self: center;
+}
+
+#hubspot-footer-form > form > .hs_recaptcha {
+  display: none;
+  order: 1;
+}
+
+#hubspot-footer-form > form > .hs_submit {
+  order: 2;
+}
+
+@media screen and (max-width: 900px) {
+  footer.site-footer {
+    padding-bottom: 180px;
+    background-size: auto 180px;
+  }
+  footer.site-footer ul.inner-container {
+    flex-wrap: wrap;
+  }
+  footer.site-footer ul.inner-container > li.menu-box:last-of-type {
+    margin-right: 0;
+  }
+  footer.site-footer ul.inner-container > li.social-box {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  footer.site-footer ul.inner-container > li.social-box > div {
+    width: calc(100% - 200px);
+    max-width: 400px;
+  }
+  footer.site-footer ul.inner-container > li.social-box > div form.hs-form {
+    margin-bottom: 0;
+  }
+  footer.site-footer ul.inner-container > li.social-box > ul.social-link {
+    width: 170px;
+    text-align: right;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer.site-footer {
+    padding-bottom: 150px;
+    background-size: auto 150px;
+    padding-top: 52px;
+  }
+  footer.site-footer ul.inner-container {
+    padding-left: 0;
+  }
+  footer.site-footer ul.inner-container > li {
+    width: 49% !important;
+    margin: 0 !important;
+  }
+  footer.site-footer ul.inner-container > li:nth-child(n+3) {
+    margin-top: 30px !important;
+  }
+  footer.site-footer ul.inner-container > li.social-box {
+    width: 100% !important;
+    display: block;
+  }
+  footer.site-footer ul.inner-container > li.social-box > div {
+    width: 100%;
+  }
+  footer.site-footer ul.inner-container > li.social-box ul.social-link {
+    width: 100%;
+    text-align: left;
+    margin: 20px 0;
+  }
+}

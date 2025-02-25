@@ -1,1 +1,2 @@
-# docs_updates
+* [English](/en/)
+* [Français](/fr/)

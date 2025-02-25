@@ -1,0 +1,42 @@
+# Spark-compatible methods in the Connector object
+
+> If you are in a Custom Action PySpark, you can use the Connector object's (returned by the connect function) Spark-compatible methods. The methods vary according what source you are connected to: Database or Non-Database.
+
+* [Database Connector methods](/en/technical/sdk/dpe/connect-dm?id=connect-to-the-data-manager)
+    * [get_spark_options()](/en/technical/sdk/dpe/?id=get_spark_options)
+* [Non-Database Connector methods](/en/technical/sdk/dpe/connect-spark?id=connect-to-the-data-manager)
+    * [get_spark_options()](/en/technical/sdk/dpe/?id=get_spark_options)
+
+?> Note that not all ForePaaS connectors are compatible with PySpark. Some compatible connectors are: Snowflake, PostgreSQL, MySQL, Amazon S3, File Upload and ForePaaS Bucket but this list is evolving constantly.
+
+Connectors: (snowflake, postgresql, mysql)
+    get_spark_options()
+        Returns spark options to connect to database
+
+    get_spark_context()
+        Returns current spark context
+
+    extract_dataframe()
+        Extract SparkDataFrame. Parameters are the same as python connector
+
+    insert_dataframe()
+        Insert SparkDataFrame. Parameters are the same as python connector
+
+    extract() * Not advised
+        Extract SparkDataFrame then calls toPandas to convert to pandas DataFrame or dict. Parameters are the same as python connector.
+
+    insert() * Not advised
+        Insert pandas DataFrame or Spark DataFrame. The implementation is not always the same as insert_dataframe. For example Snowflake connector can only insert with append mode using insert(). Parameters are the same as python connector
+
+Protocols: (s3, file-upload, ForePaaS bucket)
+    get_spark_context()
+        Returns current spark context
+
+    get_spark_session()
+        Returns current spark session, configured with different settings when using ForePaaS bucket / file-upload
+
+    get_spark_url(path, bucket=None)
+        Returns file url to given path of object in object store. path needs to be absolute path in object store, and if bucket is not set, it uses the one from the user config
+
+    extract_dataframe(params={})
+        Extract Spark Dataframe from file. File extraction options can be set via params or in table.parameters

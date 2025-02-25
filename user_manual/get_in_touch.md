@@ -1,0 +1,4 @@
+(stayintouch)[{"title":"Let's tay in touch","content":"Subscribe to your newsletter to get regular company or product updates. Don't worry, we don't like spam either, we promise to stick to one email a month top!","placeholder":"Type your email here...","button":"Get Updates","success":"You will receive more information about us soon!"}]
+
+
+(stayintouch)[{"title":"Restons en contact","content":"Inscrivez-vous à notre newsletter pour être tenu au courant de nos dernières actualités. Promis, pas de spam et un email par mois seulement!","placeholder":"Votre email","button":"S'INSCRIRE","success":"A très bientôt!"}]

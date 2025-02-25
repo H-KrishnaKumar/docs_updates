@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Platform - Documentation</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description"/>
+
+  <meta http-equiv="Cache-Control" content="max-age=3600"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="shortcut icon" href="/_assets/favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/stylesheet.css">
+  <link rel="stylesheet" href="vendors/themes.css">
+  <link rel="stylesheet" href="vendors/tabs.css">
+  <link rel="stylesheet" href="vendors/search.css">
+
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      basePath:'/',
+      notFoundPage: {
+        '/en': 'en/_404.md',
+        '/fr': 'fr/_404.md',
+        '/jp': 'jp/_404.md'
+      },
+      loadSidebar: true,
+      nameLink: {
+        'fr':'#/fr/',
+        'jp':'#/jp/',
+        'en':'#/en/'
+      },
+      coverpage: false,
+      loadNavbar: true,
+      name: 'Data Platform',
+      auto2top: true,
+      search: {
+        placeholder: {
+          "/fr/": "Rechercher",
+          "/en/": "Search",
+          "/jp/": "検索",
+          "/": "Search"
+        }
+      },
+      repo: '',
+      logo: '/_assets/dataplatform-logo.png',
+      langSwitcher: ["en","jp"],
+      tabs: {
+        persist    : true,
+        sync       : true,
+        theme      : 'classic',
+        tabComments: true,
+        tabHeadings: true
+      }
+    }
+  </script>
+  <script src="vendors/docsify.js"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-jsx.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+
+
+  <script src="vendors/tabs.js"></script>
+  <script src="vendors/webfont.js"></script>
+  <script src="vendors/lodash.js"></script>
+  <script src="vendors/snap.svg-min.js"></script>
+  <script src="vendors/js-sequence.js"></script>
+  <script src="vendors/templates.js"></script>
+  <script src="vendors/FpTranslate.js"></script>
+  <script src="vendors/emoji.min.js"></script>
+  <script src="vendors/zoom-image.min.js"></script>
+  <script src="vendors/charts.js"></script>
+  <script src="vendors/stayintouch.js"></script>
+  <script src="vendors/docsify-copy-code.min.js"></script>
+  <script src="vendors/search.js"></script>
+  <script src="vendors/mediabox.js"></script>
+  <script src="vendors/youtube.js"></script>
+  <script src="vendors/js-sequence-docsify.js"></script>
+  <script src="vendors/api-block.js"></script>
+  <script src="vendors/redirection.js"></script>
+  <script src="vendors/docsify-sidebar-collapse.js"></script>
+  <script src="vendors/lang-switcher.js"></script>
+  <script src="vendors/image-map.js"></script>
+
+  <script>
+    window.axeptioSettings = {
+      clientId: "623c83535a815de13463b8ca",
+      cookiesVersion: "docs",
+    };
+
+    (function(d, s) {
+      var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+      e.async = true; e.src = "//static.axept.io/sdk.js";
+      t.parentNode.insertBefore(e, t);
+    })(document, "script");
+    void 0 === window._axcb && (window._axcb = []);
+
+    window._axcb.push(function (axeptio) {
+      axeptio.on('cookies:complete', function (choices) {
+        loadCookies(choices)
+      })
+    })
+
+    var onHashChange = function() {
+      if(document.location.hash.length <= 2) {
+        document.location.hash = '#/en/'
+      }
+    }
+    window.onhashchange = onHashChange
+    onHashChange()
+
+    function loadCookies(choices) {
+      if(choices.google_analytics) {
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-63148789-6', 'auto');
+        ga('send', 'pageview');
+
+
+        onHashChange = function() {
+          ga('set', 'page', document.location.hash);
+          ga('send', 'pageview');
+          if(document.location.hash.length <= 2) {
+            document.location.hash = '#/en/'
+          }
+        }
+        onHashChange()
+        window.onhashchange = onHashChange
+      }
+
+      if(choices.hubspot) {
+
+
+        const t = document.getElementsByTagName('script')[0]
+        const e = document.createElement('script')
+        e.async = true
+        e.defer = true
+        e.id = 'hs-script-loader'
+        e.src = '//js-eu1.hs-scripts.com/25015229.js'
+        t.parentNode.insertBefore(e, t)
+
+        const e2 = document.createElement('script')
+        e2.id = 'hs-script-loader'
+        e2.src = '//js.hsforms.net/forms/v2.js'
+        t.parentNode.insertBefore(e2, t)
+
+        // setTimeout(_=>{
+        //   window.loadFooterForm()
+        // },1000)
+      }
+    }
+
+  </script>
+
+  <!-- Pingdom -->
+  <!-- <script>
+    var _prum = [
+      ['id', '5c790a011872b50016000797'],
+      ['mark', 'firstbyte', (new Date()).getTime()]
+      ['tags', ['en', 'customer_1', 'product_g']]
+    ];
+    (function() {
+        var s = document.getElementsByTagName('script')[0]
+          , p = document.createElement('script');
+        p.async = 'async'
+        p.src = '//rum-static.pingdom.net/prum.min.js'
+        s.parentNode.insertBefore(p, s)
+    })()
+  </script> -->
+  <!-- End Pingdom -->
+</body>
+</html>
