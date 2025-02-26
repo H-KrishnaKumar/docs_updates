@@ -25,8 +25,6 @@ Good data preparation means selecting the correct features for your model. Learn
 {Manage your features}(#/en/product/ml/pipelines/configure/dataset/features.md)
 
 ---
-##  Need help? 🆘
+###  Need help? 🆘
 
-> You didn't find what you were looking for on this page? You can ask for help by sending a request directly from the platform, going to the *Support* page. You can also send us an email at support@forepaas.com.
-
-{Send your questions to support 🤔}(https://support.forepaas.com/hc/en-us/requests)
+> If you are logging-in with an OVHcloud account, you can create a ticket to raise an incident or if you need support at the [OVHcloud Help Centre](https://help.ovhcloud.com/csm/fr-home?id=csm_index). Additionally, you can ask for support by reaching out to us on the Data Platform Channel within the [Discord Server](https://discord.com/channels/850031577277792286/1163465539981672559). There is a step-by-step guide in the [support](/en/support/index.md).

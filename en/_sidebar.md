@@ -115,7 +115,6 @@
       - [Configure a workflow](/en/product/dpe/workflows/configuration.md)
       - [Advanced Mode](/en/product/dpe/workflows/advanced-mode.md)
     - [Notebooks](en/product/dpe/notebooks/index.md)
-        - [Create a notebook](en/product/dpe/notebooks/create.md)
     - [Environments](/en/product/dpe/environments/index.md)
     - [Jobs](/en/product/dpe/jobs/index.md)
       - [Execution Preferences](/en/product/dpe/actions/settings/index.md)

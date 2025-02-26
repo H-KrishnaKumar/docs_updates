@@ -125,9 +125,7 @@ It's time to head to the Project checklist and best practices.
 
 ---
 
-## Your feedback is gold! 🗣️
 
-We are really excited that you are getting your hands on the platform. Our support & product teams are truly dedicated to making your experience as smooth as possible. For that to happen **don't hesitate to reach out directly** and **don't hold back for sharing feedback** even without filters. We'd rather know what works and what doesn't, it's all about the learning experience!
 
 
 ###  Need help? 🆘

@@ -132,9 +132,7 @@ This section lists the organizations that are publicly available for you to join
 Once you are part of an organization, you can manage your role within the organization, view other members, and leave the organization if necessary. Additionally, you can create new projects within the organization’s workspace.
 
 ---
-## Your feedback is gold! 🗣️
 
-We are really excited that you are getting your hands on the platform. Our support & product teams are truly dedicated to making your experience as smooth as possible. For that to happen **don't hesitate to reach out directly** and **don't hold back for sharing feedback** even without filters. We'd rather know what works and what doesn't, it's all about the learning experience!
 
 ###  Need help? 🆘
 
